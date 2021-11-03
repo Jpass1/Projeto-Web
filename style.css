@@ -1,0 +1,127 @@
+* {
+    font-family: 'Roboto',sans-serif;
+    color:inherit ;
+}
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+
+}
+.container {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    width: 75%;
+    height: 9vh;
+    background-color:rgb(158, 139, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    z-index: 1;
+    text-decoration: none;
+
+}
+
+
+.left-menu {
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.escrita {
+    position: absolute;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-end;
+    left: 25%;
+    top: 10%;
+    margin: 1rem;
+    color: rgb(36, 13, 13);
+
+}
+.Foto {
+    padding: 1rem;
+    
+    
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+
+    }
+.space {
+    width: 75%;
+    height: 20rem;
+}
+.espaco {
+    width: 75%;
+    height: 20rem;
+}
+.espac {
+    width: 75%;
+    height: 30rem;
+}
+.container nav ul li a {
+    text-decoration: none;
+
+}
+.container nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.container nav ul {
+    position: fixed;
+    top: 1vh;
+    left: 25%;
+    width: 75%;
+    height: 1vh;
+    background-color:rgb(158, 139, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    z-index: 1;
+    text-decoration: none;
+
+}
+h1 {
+    font-size: 20px;
+;
+}
+.container nav ul li {
+    list-style: none;
+}
+.Contato {
+    color: black;
+}
+
+@media screen and (max-width: 1366px) {
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+        left: 25%;
+        width: 75%;
+    }
+    .left-menu{
+        flex-direction: column;
+        width: 25%;
+    }
+    .container nav ul {
+        align-items: center;
+    }
+}
